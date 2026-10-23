@@ -1,0 +1,6 @@
+2026-06-06 10:00:01 [INFO] User 192.168.1.10 logged in successfully.
+2026-06-06 10:01:15 [WARNING] Low disk space on partition /var.
+2026-06-06 10:05:42 [ERROR] Database connection failed for IP 10.0.0.5.
+2026-06-06 10:06:00 [INFO] Reconnecting to database from IP 192.168.1.10...
+2026-06-06 10:07:22 [CRITICAL] Memory limit exceeded on server 10.0.0.8.
+2026-06-06 10:10:05 [ERROR] Failed to fetch data from IP 192.168.1.10.
