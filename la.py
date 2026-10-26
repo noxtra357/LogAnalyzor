@@ -4,7 +4,7 @@ import os
 import re
 import sys
 
-# Тестовые данные на случай, если файл логов еще не создан
+
 SAMPLE_LOG_CONTENT = """2026-06-06 10:00:01 [INFO] User 192.168.1.10 logged in successfully.
 2026-06-06 10:01:15 [WARNING] Low disk space on partition /var.
 2026-06-06 10:05:42 [ERROR] Database connection failed for IP 10.0.0.5.
@@ -45,7 +45,7 @@ def parse_log_file(file_path):
         total_lines += 1
         line_clean = line.strip()
 
-        # Поиск уровня логирования
+        
         level_match = level_pattern.search(line_clean)
         if level_match:
           level = level_match.group(1)
